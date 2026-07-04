@@ -1,0 +1,18 @@
+{
+  "name": "earth-database",
+  "version": "1.0.0",
+  "description": "Database models, schemas, and seeding scripts for EARTH Creator & Talent Collaboration Platform",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.3.4"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^9.2.0"
+  }
+}
